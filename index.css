@@ -31,7 +31,7 @@ body {
 	width: 50%;
 	margin: 0 auto;
 	padding-top: 7em;
-	animation: sceneOneText 1s 2s ease-in-out 1 backwards running;
+	animation: sceneOneText 3s 2s ease-in-out 1 backwards running;
 }
 
 @keyframes sceneOneText {
@@ -272,6 +272,7 @@ body {
 	width: 100%;
 	height: 650px;
 	display: block;
+	padding-top: 10em;
 	box-sizing: border-box;
 }
 
@@ -358,22 +359,20 @@ body {
 	margin: 0 auto;
 	padding-top: 7em;
 	padding-left: 9em;
-	position: absolute;
 	visibility: hidden;
-	animation: sceneThreeText 2s 2.2s ease-in-out 1 forwards running;
 }
 
 .scene-three-desc-last-line {
-	padding-left: 15em;
+	padding-left: 20em;
 }
 
 .scene-three-text-animation {
-	animation: sceneThreeText 2s 2.2s ease-in-out 1 forwards running;
+	animation: sceneThreeText 3s 2.2s ease-in-out 1 forwards running;
 }
 
 @keyframes sceneThreeText {
-	0%		{ visibility: visible; opacity: 0; bottom: 0px; }
-	100%	{ visibility: visible; opacity: 1; bottom: 650px; }
+	0%		{ visibility: hidden; opacity: 0; }
+	100%	{ visibility: visible; opacity: 1; }
 }
 
 .scene-three-header {
@@ -386,6 +385,7 @@ body {
 .scene-three-desc {
 	color: #A2A2A1;
 	text-align: justify;
+	padding-left: 11em;
 }
 
 .scene-three-bg-img {
@@ -398,11 +398,62 @@ body {
 	background-size: 650px;
 }
 
+.scene-three-bgimg-animation {
+	animation: sceneThreeImg 2.2s linear 1 both running;
+}
+
+@keyframes sceneThreeImg {
+	0% 		{background-image: url('img/Scene03/Sc_Three_00000.png');}
+	3% 		{background-image: url('img/Scene03/Sc_Three_00001.png');}
+	6% 		{background-image: url('img/Scene03/Sc_Three_00002.png');}
+	9%	  	{background-image: url('img/Scene03/Sc_Three_00003.png');}
+	12%  	{background-image: url('img/Scene03/Sc_Three_00004.png');}
+	15% 		{background-image: url('img/Scene03/Sc_Three_00005.png');}
+	18% 		{background-image: url('img/Scene03/Sc_Three_00006.png');}
+	21% 		{background-image: url('img/Scene03/Sc_Three_00007.png');}
+	24% 		{background-image: url('img/Scene03/Sc_Three_00008.png');}
+	27% 		{background-image: url('img/Scene03/Sc_Three_00009.png');}
+	30%	  	{background-image: url('img/Scene03/Sc_Three_00010.png');}
+	33% 		{background-image: url('img/Scene03/Sc_Three_00011.png');}
+	36% 		{background-image: url('img/Scene03/Sc_Three_00012.png');}
+	39% 		{background-image: url('img/Scene03/Sc_Three_00013.png');}
+	42%	  	{background-image: url('img/Scene03/Sc_Three_00014.png');}
+	45%  	{background-image: url('img/Scene03/Sc_Three_00015.png');}
+	48% 		{background-image: url('img/Scene03/Sc_Three_00016.png');}
+	51% 		{background-image: url('img/Scene03/Sc_Three_00017.png');}
+	54% 		{background-image: url('img/Scene03/Sc_Three_00018.png');}
+	57% 		{background-image: url('img/Scene03/Sc_Three_00019.png');}
+	60% 		{background-image: url('img/Scene03/Sc_Three_00020.png');}
+	63%	  	{background-image: url('img/Scene03/Sc_Three_00021.png');}
+	66% 		{background-image: url('img/Scene03/Sc_Three_00022.png');}
+	69% 		{background-image: url('img/Scene03/Sc_Three_00023.png');}
+	72% 		{background-image: url('img/Scene03/Sc_Three_00024.png');}
+	75%	  	{background-image: url('img/Scene03/Sc_Three_00025.png');}
+	78%  	{background-image: url('img/Scene03/Sc_Three_00026.png');}
+	81% 		{background-image: url('img/Scene03/Sc_Three_00027.png');}
+	84% 		{background-image: url('img/Scene03/Sc_Three_00028.png');}
+	87% 		{background-image: url('img/Scene03/Sc_Three_00029.png');}
+	90% 		{background-image: url('img/Scene03/Sc_Three_00030.png');}
+	95% 		{background-image: url('img/Scene03/Sc_Three_00031.png');}
+	100% 	{background-image: url('img/Scene03/Sc_Three_00032.png');}
+}
+
 .scene-three-bottom-content {
 	width: 100%;
 	height: 150px;
+	padding-top: 25em;
 	color: #A2A2A1;
 	font-size: 0.9em;
+	visibility: hidden;
+}
+
+.scene-three-bottom-animation {
+	animation: sceneThreeBottomAnimation 3s 2.2s ease-in-out 1 forwards running;
+}
+
+@keyframes sceneThreeBottomAnimation {
+	0% 		{ visibility: hidden; opacity: 0 }
+	100%  	{ visibility: visible; opacity: 1 }
 }
 
 .main-block {
@@ -419,9 +470,78 @@ body {
 
 .scene-four {
 	width: 100%;
-	height: 500px;
+	height: 900px;
 	display: block;
+	position: relative;
 	box-sizing: border-box;
+	margin-left: 10em;
+}
+
+.scene-four-text-content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 22em;
+	position: absolute;
+	visibility: hidden;
+}
+
+.scene-four-desc-last-line {
+	padding-left: 5em;
+}
+
+.scene-four-text-animation {
+	animation: sceneFourText 2s 2.2s ease-in-out 1 forwards running;
+}
+
+@keyframes sceneFourText {
+	0%		{ visibility: visible; opacity: 0; left: -350px; }
+	100%	{ visibility: visible; opacity: 1; left: -300px; transform: rotateY(360deg); }
+}
+
+.scene-four-header {
+	color: #FCFDFC;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.scene-four-desc {
+	color: #A2A2A1;
+	text-align: justify;
+	padding-left: 20em;
+}
+
+.scene-four-bg-img {
+	width: 745px;
+	height: 900px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: 900px;
+}
+
+.scene-four-bgimg-animation {
+	animation: sceneFourImg 2.2s linear 1 both running;
+}
+
+@keyframes sceneFourImg {
+	0% 		{background-image: url('img/Scene04/Sc_Four_00000.png');}
+	7% 		{background-image: url('img/Scene04/Sc_Four_00001.png');}
+	14% 		{background-image: url('img/Scene04/Sc_Four_00002.png');}
+	21%	  	{background-image: url('img/Scene04/Sc_Four_00003.png');}
+	28%  	{background-image: url('img/Scene04/Sc_Four_00004.png');}
+	35% 		{background-image: url('img/Scene04/Sc_Four_00005.png');}
+	42% 		{background-image: url('img/Scene04/Sc_Four_00006.png');}
+	49% 		{background-image: url('img/Scene04/Sc_Four_00007.png');}
+	56% 		{background-image: url('img/Scene04/Sc_Four_00008.png');}
+	63% 		{background-image: url('img/Scene04/Sc_Four_00009.png');}
+	70%	  	{background-image: url('img/Scene04/Sc_Four_00010.png');}
+	75% 		{background-image: url('img/Scene04/Sc_Four_00011.png');}
+	80% 		{background-image: url('img/Scene04/Sc_Four_00012.png');}
+	85% 		{background-image: url('img/Scene04/Sc_Four_00013.png');}
+	90%	  	{background-image: url('img/Scene04/Sc_Four_00014.png');}
+	95%  	{background-image: url('img/Scene04/Sc_Four_00015.png');}
+	100% 	{background-image: url('img/Scene04/Sc_Four_00016.png');}
 }
 
 .scene-five {
