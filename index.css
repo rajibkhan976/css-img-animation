@@ -1,0 +1,432 @@
+body {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100vw;
+	height: auto;
+	background-color: #06090F;
+	box-sizing: border-box;
+}
+
+.scene-one {
+	width: 100%;
+	height: 650px;
+	display: block;
+	box-sizing: border-box;
+}
+
+.scene-one-text-content {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 7em;
+	animation: sceneOneText 1s 4.5s ease-in-out 1 backwards running;
+}
+
+.scene-one-desc-last-line {
+	padding-left: 5em;
+}
+
+.scene-one-text-animation {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 7em;
+	animation: sceneOneText 1s 2s ease-in-out 1 backwards running;
+}
+
+@keyframes sceneOneText {
+	0%		{ visibility: hidden; opacity: 0; }
+	100%	{ visibility: visible; opacity: 1; }
+}
+
+.scene-one-header {
+	color: #FCFDFC;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.scene-one-desc {
+	color: #A2A2A1;
+	text-align: justify;
+}
+
+.scene-one-bg-img {
+	width: 650px;
+	height: 650px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: 650px;
+	animation: sceneOneImg 2.9s linear 2 forwards running;
+}
+
+.scene-one-bgimg-animation {
+	width: 650px;
+	height: 650px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: 650px;
+	animation: sceneOneImg 2.9s linear 1 forwards running;
+}
+
+@keyframes sceneOneImg {
+	0% 		{background-image: url('img/Scene01/Sc_One_00003.png');}
+	1% 		{background-image: url('img/Scene01/Sc_One_00004.png');}
+	2% 		{background-image: url('img/Scene01/Sc_One_00005.png');}
+	3%	  	{background-image: url('img/Scene01/Sc_One_00006.png');}
+	4%  		{background-image: url('img/Scene01/Sc_One_00007.png');}
+	4.5% 	{background-image: url('img/Scene01/Sc_One_00008.png');}
+	5% 		{background-image: url('img/Scene01/Sc_One_00009.png');}
+	5.5% 	{background-image: url('img/Scene01/Sc_One_00010.png');}
+	6% 		{background-image: url('img/Scene01/Sc_One_00011.png');}
+	6.5%  	{background-image: url('img/Scene01/Sc_One_00012.png');}
+	7%   	{background-image: url('img/Scene01/Sc_One_00013.png');}
+	7.5% 	{background-image: url('img/Scene01/Sc_One_00014.png');}
+	8%	 	{background-image: url('img/Scene01/Sc_One_00015.png');}
+	8.5% 	{background-image: url('img/Scene01/Sc_One_00016.png');}
+	9%	 	{background-image: url('img/Scene01/Sc_One_00017.png');}
+	9.5%  	{background-image: url('img/Scene01/Sc_One_00018.png');}
+	10%  	{background-image: url('img/Scene01/Sc_One_00019.png');}
+	10.5% 	{background-image: url('img/Scene01/Sc_One_00020.png');}
+	11% 		{background-image: url('img/Scene01/Sc_One_00021.png');}
+	11.5% 	{background-image: url('img/Scene01/Sc_One_00022.png');}
+	12% 		{background-image: url('img/Scene01/Sc_One_00023.png');}
+	12.5%  	{background-image: url('img/Scene01/Sc_One_00024.png');}
+	13%  	{background-image: url('img/Scene01/Sc_One_00025.png');}
+	13.5% 	{background-image: url('img/Scene01/Sc_One_00026.png');}
+	14% 		{background-image: url('img/Scene01/Sc_One_00027.png');}
+	14.5% 	{background-image: url('img/Scene01/Sc_One_00028.png');}
+	15%	 	{background-image: url('img/Scene01/Sc_One_00029.png');}
+	15.5%  	{background-image: url('img/Scene01/Sc_One_00030.png');}
+	16%  	{background-image: url('img/Scene01/Sc_One_00031.png');}
+	16.5% 	{background-image: url('img/Scene01/Sc_One_00032.png');}
+	17%	 	{background-image: url('img/Scene01/Sc_One_00033.png');}
+	17.5% 	{background-image: url('img/Scene01/Sc_One_00034.png');}
+	18%	 	{background-image: url('img/Scene01/Sc_One_00035.png');}
+	18.5%  	{background-image: url('img/Scene01/Sc_One_00036.png');}
+	19%  	{background-image: url('img/Scene01/Sc_One_00037.png');}
+	19.5% 	{background-image: url('img/Scene01/Sc_One_00038.png');}
+	20%	 	{background-image: url('img/Scene01/Sc_One_00039.png');}
+	20.5% 	{background-image: url('img/Scene01/Sc_One_00040.png');}
+	21%	 	{background-image: url('img/Scene01/Sc_One_00041.png');}
+	21.5%  	{background-image: url('img/Scene01/Sc_One_00042.png');}
+	22%  	{background-image: url('img/Scene01/Sc_One_00043.png');}
+	22.5% 	{background-image: url('img/Scene01/Sc_One_00044.png');}
+	23% 		{background-image: url('img/Scene01/Sc_One_00045.png');}
+	23.5% 	{background-image: url('img/Scene01/Sc_One_00046.png');}
+	24%	 	{background-image: url('img/Scene01/Sc_One_00047.png');}
+	24.5%  	{background-image: url('img/Scene01/Sc_One_00048.png');}
+	25%  	{background-image: url('img/Scene01/Sc_One_00049.png');}
+	25.5% 	{background-image: url('img/Scene01/Sc_One_00050.png');}
+	26%	 	{background-image: url('img/Scene01/Sc_One_00051.png');}
+	26.5% 	{background-image: url('img/Scene01/Sc_One_00052.png');}
+	27%	 	{background-image: url('img/Scene01/Sc_One_00053.png');}
+	27.5%  	{background-image: url('img/Scene01/Sc_One_00054.png');}
+	28%  	{background-image: url('img/Scene01/Sc_One_00055.png');}
+	28.5% 	{background-image: url('img/Scene01/Sc_One_00056.png');}
+	29%	 	{background-image: url('img/Scene01/Sc_One_00057.png');}
+	29.5% 	{background-image: url('img/Scene01/Sc_One_00058.png');}
+	30% 		{background-image: url('img/Scene01/Sc_One_00059.png');}
+	30.5%  	{background-image: url('img/Scene01/Sc_One_00060.png');}
+	31%  	{background-image: url('img/Scene01/Sc_One_00061.png');}
+	31.5% 	{background-image: url('img/Scene01/Sc_One_00062.png');}
+	32% 		{background-image: url('img/Scene01/Sc_One_00063.png');}
+	32.5% 	{background-image: url('img/Scene01/Sc_One_00064.png');}
+	33%	 	{background-image: url('img/Scene01/Sc_One_00065.png');}
+	33.5%  	{background-image: url('img/Scene01/Sc_One_00066.png');}
+	34%  	{background-image: url('img/Scene01/Sc_One_00067.png');}
+	34.5% 	{background-image: url('img/Scene01/Sc_One_00068.png');}
+	35%	 	{background-image: url('img/Scene01/Sc_One_00069.png');}
+	35.5% 	{background-image: url('img/Scene01/Sc_One_00070.png');}
+	36% 		{background-image: url('img/Scene01/Sc_One_00071.png');}
+	36.5%  	{background-image: url('img/Scene01/Sc_One_00072.png');}
+	37%  	{background-image: url('img/Scene01/Sc_One_00073.png');}
+	37.5% 	{background-image: url('img/Scene01/Sc_One_00074.png');}
+	38% 		{background-image: url('img/Scene01/Sc_One_00075.png');}
+	38.5% 	{background-image: url('img/Scene01/Sc_One_00076.png');}
+	39% 		{background-image: url('img/Scene01/Sc_One_00077.png');}
+	39.5%  	{background-image: url('img/Scene01/Sc_One_00078.png');}
+	40%  	{background-image: url('img/Scene01/Sc_One_00079.png');}
+	40.5% 	{background-image: url('img/Scene01/Sc_One_00080.png');}
+	41% 		{background-image: url('img/Scene01/Sc_One_00081.png');}
+	41.5% 	{background-image: url('img/Scene01/Sc_One_00082.png');}
+	42% 		{background-image: url('img/Scene01/Sc_One_00083.png');}
+	42.5%  	{background-image: url('img/Scene01/Sc_One_00084.png');}
+	43%  	{background-image: url('img/Scene01/Sc_One_00085.png');}
+	43.5% 	{background-image: url('img/Scene01/Sc_One_00086.png');}
+	44% 		{background-image: url('img/Scene01/Sc_One_00087.png');}
+	44.5% 	{background-image: url('img/Scene01/Sc_One_00088.png');}
+	45% 		{background-image: url('img/Scene01/Sc_One_00089.png');}
+	45.5%  	{background-image: url('img/Scene01/Sc_One_00090.png');}
+	46%  	{background-image: url('img/Scene01/Sc_One_00091.png');}
+	46.5% 	{background-image: url('img/Scene01/Sc_One_00092.png');}
+	47% 		{background-image: url('img/Scene01/Sc_One_00093.png');}
+	47.5% 	{background-image: url('img/Scene01/Sc_One_00094.png');}
+	48% 		{background-image: url('img/Scene01/Sc_One_00095.png');}
+	48.5%  	{background-image: url('img/Scene01/Sc_One_00096.png');}
+	49%  	{background-image: url('img/Scene01/Sc_One_00097.png');}
+	49.5% 	{background-image: url('img/Scene01/Sc_One_00098.png');}
+	50% 		{background-image: url('img/Scene01/Sc_One_00099.png');}
+	50.5% 	{background-image: url('img/Scene01/Sc_One_00100.png');}
+	51% 		{background-image: url('img/Scene01/Sc_One_00101.png');}
+	51.5%  	{background-image: url('img/Scene01/Sc_One_00102.png');}
+	52%  	{background-image: url('img/Scene01/Sc_One_00103.png');}
+	52.5% 	{background-image: url('img/Scene01/Sc_One_00104.png');}
+	53% 		{background-image: url('img/Scene01/Sc_One_00105.png');}
+	53.5% 	{background-image: url('img/Scene01/Sc_One_00106.png');}
+	54% 		{background-image: url('img/Scene01/Sc_One_00107.png');}
+	54.5%  	{background-image: url('img/Scene01/Sc_One_00108.png');}
+	55%  	{background-image: url('img/Scene01/Sc_One_00109.png');}
+	55.5% 	{background-image: url('img/Scene01/Sc_One_00110.png');}
+	56% 		{background-image: url('img/Scene01/Sc_One_00111.png');}
+	56.5% 	{background-image: url('img/Scene01/Sc_One_00112.png');}
+	57% 		{background-image: url('img/Scene01/Sc_One_00113.png');}
+	57.5%  	{background-image: url('img/Scene01/Sc_One_00114.png');}
+	58%  	{background-image: url('img/Scene01/Sc_One_00115.png');}
+	58.5% 	{background-image: url('img/Scene01/Sc_One_00116.png');}
+	59% 		{background-image: url('img/Scene01/Sc_One_00117.png');}
+	59.5% 	{background-image: url('img/Scene01/Sc_One_00118.png');}
+	60% 		{background-image: url('img/Scene01/Sc_One_00119.png');}
+	60.5%  	{background-image: url('img/Scene01/Sc_One_00120.png');}
+	61%  	{background-image: url('img/Scene01/Sc_One_00121.png');}
+	61.5% 	{background-image: url('img/Scene01/Sc_One_00122.png');}
+	62% 		{background-image: url('img/Scene01/Sc_One_00123.png');}
+	62.5% 	{background-image: url('img/Scene01/Sc_One_00124.png');}
+	63% 		{background-image: url('img/Scene01/Sc_One_00125.png');}
+	63.5%  	{background-image: url('img/Scene01/Sc_One_00126.png');}
+	64%  	{background-image: url('img/Scene01/Sc_One_00127.png');}
+	64.5% 	{background-image: url('img/Scene01/Sc_One_00128.png');}
+	65% 		{background-image: url('img/Scene01/Sc_One_00129.png');}
+	65.5% 	{background-image: url('img/Scene01/Sc_One_00130.png');}
+	66% 		{background-image: url('img/Scene01/Sc_One_00131.png');}
+	66.5%  	{background-image: url('img/Scene01/Sc_One_00132.png');}
+	67%  	{background-image: url('img/Scene01/Sc_One_00133.png');}
+	67.5% 	{background-image: url('img/Scene01/Sc_One_00134.png');}
+	68% 		{background-image: url('img/Scene01/Sc_One_00135.png');}
+	68.5% 	{background-image: url('img/Scene01/Sc_One_00136.png');}
+	69% 		{background-image: url('img/Scene01/Sc_One_00137.png');}
+	69.5%  	{background-image: url('img/Scene01/Sc_One_00138.png');}
+	70%  	{background-image: url('img/Scene01/Sc_One_00139.png');}
+	70.5% 	{background-image: url('img/Scene01/Sc_One_00140.png');}
+	71% 		{background-image: url('img/Scene01/Sc_One_00141.png');}
+	71.5% 	{background-image: url('img/Scene01/Sc_One_00142.png');}
+	72% 		{background-image: url('img/Scene01/Sc_One_00143.png');}
+	72.5%  	{background-image: url('img/Scene01/Sc_One_00144.png');}
+	73%  	{background-image: url('img/Scene01/Sc_One_00145.png');}
+	73.5% 	{background-image: url('img/Scene01/Sc_One_00146.png');}
+	74%  	{background-image: url('img/Scene01/Sc_One_00147.png');}
+	74.5% 	{background-image: url('img/Scene01/Sc_One_00148.png');}
+	75% 		{background-image: url('img/Scene01/Sc_One_00149.png');}
+	75.5% 	{background-image: url('img/Scene01/Sc_One_00150.png');}
+	76% 		{background-image: url('img/Scene01/Sc_One_00151.png');}
+	76.5%  	{background-image: url('img/Scene01/Sc_One_00152.png');}
+	77%  	{background-image: url('img/Scene01/Sc_One_00153.png');}
+	77.5% 	{background-image: url('img/Scene01/Sc_One_00154.png');}
+	78% 		{background-image: url('img/Scene01/Sc_One_00155.png');}
+	78.5% 	{background-image: url('img/Scene01/Sc_One_00156.png');}
+	79% 		{background-image: url('img/Scene01/Sc_One_00157.png');}
+	79.5%  	{background-image: url('img/Scene01/Sc_One_00158.png');}
+	80%  	{background-image: url('img/Scene01/Sc_One_00159.png');}
+	80.5% 	{background-image: url('img/Scene01/Sc_One_00160.png');}
+	81% 		{background-image: url('img/Scene01/Sc_One_00161.png');}
+	81.5% 	{background-image: url('img/Scene01/Sc_One_00162.png');}
+	82% 		{background-image: url('img/Scene01/Sc_One_00163.png');}
+	82.5%  	{background-image: url('img/Scene01/Sc_One_00164.png');}
+	83%  	{background-image: url('img/Scene01/Sc_One_00165.png');}
+	83.5% 	{background-image: url('img/Scene01/Sc_One_00166.png');}
+	84%  	{background-image: url('img/Scene01/Sc_One_00167.png');}
+	84.5% 	{background-image: url('img/Scene01/Sc_One_00168.png');}
+	85% 		{background-image: url('img/Scene01/Sc_One_00169.png');}
+	85.5% 	{background-image: url('img/Scene01/Sc_One_00170.png');}
+	86% 		{background-image: url('img/Scene01/Sc_One_00171.png');}
+	86.5%  	{background-image: url('img/Scene01/Sc_One_00172.png');}
+	87%  	{background-image: url('img/Scene01/Sc_One_00173.png');}
+	87.5% 	{background-image: url('img/Scene01/Sc_One_00174.png');}
+	88% 		{background-image: url('img/Scene01/Sc_One_00175.png');}
+	88.5% 	{background-image: url('img/Scene01/Sc_One_00176.png');}
+	89% 		{background-image: url('img/Scene01/Sc_One_00177.png');}
+	89.5%  	{background-image: url('img/Scene01/Sc_One_00178.png');}
+	90%  	{background-image: url('img/Scene01/Sc_One_00179.png');}
+	90.5% 	{background-image: url('img/Scene01/Sc_One_00180.png');}
+	91% 		{background-image: url('img/Scene01/Sc_One_00181.png');}
+	91.5% 	{background-image: url('img/Scene01/Sc_One_00182.png');}
+	92% 		{background-image: url('img/Scene01/Sc_One_00183.png');}
+	92.5%  	{background-image: url('img/Scene01/Sc_One_00184.png');}
+	93%  	{background-image: url('img/Scene01/Sc_One_00185.png');}
+	93.5% 	{background-image: url('img/Scene01/Sc_One_00186.png');}
+	94%  	{background-image: url('img/Scene01/Sc_One_00187.png');}
+	94.5% 	{background-image: url('img/Scene01/Sc_One_00188.png');}
+	95% 		{background-image: url('img/Scene01/Sc_One_00189.png');}
+	95.5% 	{background-image: url('img/Scene01/Sc_One_00190.png');}
+	96% 		{background-image: url('img/Scene01/Sc_One_00191.png');}
+	96.5%  	{background-image: url('img/Scene01/Sc_One_00192.png');}
+	97%  	{background-image: url('img/Scene01/Sc_One_00193.png');}
+	97.5% 	{background-image: url('img/Scene01/Sc_One_00194.png');}
+	98% 		{background-image: url('img/Scene01/Sc_One_00195.png');}
+	98.5% 	{background-image: url('img/Scene01/Sc_One_00196.png');}
+	99% 		{background-image: url('img/Scene01/Sc_One_00197.png');}
+	99.5%  	{background-image: url('img/Scene01/Sc_One_00198.png');}
+	100%  	{background-image: url('img/Scene01/Sc_One_00199.png');}
+}
+
+.scene-two {
+	width: 100%;
+	height: 650px;
+	display: block;
+	box-sizing: border-box;
+}
+
+.scene-two-text-content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 7em;
+	position: absolute;
+	visibility: hidden;
+}
+
+.scene-two-desc-last-line {
+	padding-left: 15em;
+}
+
+.scene-two-text-animation {
+	animation: sceneTwoText 2s 2.2s ease-in-out 1 forwards running;
+}
+
+@keyframes sceneTwoText {
+	0%		{ visibility: visible; opacity: 0; top: 0px; }
+	100%	{ visibility: visible; opacity: 1; top: 200px; }
+}
+
+.scene-two-header {
+	color: #FCFDFC;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.scene-two-desc {
+	color: #A2A2A1;
+	text-align: justify;
+}
+
+.scene-two-bg-img {
+	width: 745px;
+	height: 650px;
+	margin: 0 auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-size: 650px;
+}
+
+.scene-two-bgimg-animation {
+	animation: sceneTwoImg 2.2s linear 1 both running;
+}
+
+@keyframes sceneTwoImg {
+	0% 		{background-image: url('img/Scene02/Sc_Two_00000.png');}
+	5% 		{background-image: url('img/Scene02/Sc_Two_00001.png');}
+	10% 		{background-image: url('img/Scene02/Sc_Two_00002.png');}
+	15%	  	{background-image: url('img/Scene02/Sc_Two_00003.png');}
+	20%  	{background-image: url('img/Scene02/Sc_Two_00004.png');}
+	25% 		{background-image: url('img/Scene02/Sc_Two_00005.png');}
+	30% 		{background-image: url('img/Scene02/Sc_Two_00006.png');}
+	35% 		{background-image: url('img/Scene02/Sc_Two_00007.png');}
+	40% 		{background-image: url('img/Scene02/Sc_Two_00008.png');}
+	45% 		{background-image: url('img/Scene02/Sc_Two_00009.png');}
+	50%	  	{background-image: url('img/Scene02/Sc_Two_00010.png');}
+	55%  	{background-image: url('img/Scene02/Sc_Two_00011.png');}
+	60% 		{background-image: url('img/Scene02/Sc_Two_00012.png');}
+	65% 		{background-image: url('img/Scene02/Sc_Two_00013.png');}
+	70% 		{background-image: url('img/Scene02/Sc_Two_00014.png');}
+	75% 		{background-image: url('img/Scene02/Sc_Two_00015.png');}
+	80%	  	{background-image: url('img/Scene02/Sc_Two_00016.png');}
+	85%  	{background-image: url('img/Scene02/Sc_Two_00017.png');}
+	90% 		{background-image: url('img/Scene02/Sc_Two_00018.png');}
+	93% 		{background-image: url('img/Scene02/Sc_Two_00019.png');}
+	96% 		{background-image: url('img/Scene02/Sc_Two_00020.png');}
+	100% 	{background-image: url('img/Scene02/Sc_Two_00021.png');}
+}
+
+.scene-three {
+	width: 100%;
+	height: 650px;
+	display: block;
+	box-sizing: border-box;
+}
+
+.scene-three-text-content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 7em;
+	padding-left: 9em;
+	position: absolute;
+	visibility: hidden;
+	animation: sceneThreeText 2s 2.2s ease-in-out 1 forwards running;
+}
+
+.scene-three-desc-last-line {
+	padding-left: 15em;
+}
+
+.scene-three-text-animation {
+	animation: sceneThreeText 2s 2.2s ease-in-out 1 forwards running;
+}
+
+@keyframes sceneThreeText {
+	0%		{ visibility: visible; opacity: 0; bottom: 0px; }
+	100%	{ visibility: visible; opacity: 1; bottom: 650px; }
+}
+
+.scene-three-header {
+	padding-right: 8em;
+	color: #FCFDFC;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.scene-three-desc {
+	color: #A2A2A1;
+	text-align: justify;
+}
+
+.scene-three-bg-img {
+	width: 75%;
+	height: 650px;
+	margin: 0 auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-size: 650px;
+}
+
+.scene-three-bottom-content {
+	width: 100%;
+	height: 150px;
+	color: #A2A2A1;
+	font-size: 0.9em;
+}
+
+.main-block {
+	width: 33%;
+	height: 120px;
+	display: inline-block;
+}
+
+.subordinate-block {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+.scene-four {
+	width: 100%;
+	height: 500px;
+	display: block;
+	box-sizing: border-box;
+}
+
+.scene-five {
+	width: 100%;
+	height: 500px;
+	display: block;
+	box-sizing: border-box;
+}
