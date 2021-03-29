@@ -9,6 +9,9 @@ document.onreadystatechange = function () {
 	var sceneThreeBottom = document.querySelector(".scene-three-bottom-content");
 	var sceneFour = document.querySelector(".scene-four-text-content");
 	var sceneFourImg = document.querySelector(".scene-four-bg-img");
+	var sceneFiveHeader = document.querySelector(".scene-five-header");
+	var sceneFiveDesc = document.querySelector(".scene-five-desc");
+	var sceneFiveImg = document.querySelector(".scene-five-bg-img");
 	document.addEventListener("scroll", function (e) {
 		if (window.pageYOffset  >= 0 && window.pageYOffset  <= 650) {
 			sceneOne.classList.remove(`scene-one-text-content`);
@@ -41,6 +44,15 @@ document.onreadystatechange = function () {
 		} else {
 			sceneFour.classList.remove(`scene-four-text-animation`);
 			sceneFourImg.classList.remove(`scene-four-bgimg-animation`);
+		}
+		if (window.pageYOffset  >= 2851 && window.pageYOffset  <= 3600) {
+			sceneFiveHeader.classList.add(`scene-five-header-animation`);
+			sceneFiveDesc.classList.add(`scene-five-desc-animation`);
+			sceneFiveImg.classList.add(`scene-five-bgimg-animation`);
+		} else {
+			sceneFiveHeader.classList.remove(`scene-five-header-animation`);
+			sceneFiveDesc.classList.remove(`scene-five-desc-animation`);
+			sceneFiveImg.classList.remove(`scene-five-bgimg-animation`);
 		}
 	});
   }
