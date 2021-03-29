@@ -496,8 +496,8 @@ body {
 }
 
 @keyframes sceneFourText {
-	0%		{ visibility: visible; opacity: 0; left: -350px; }
-	100%	{ visibility: visible; opacity: 1; left: -300px; transform: rotateY(360deg); }
+	0%		{ visibility: visible; opacity: 0; left: -350px; transform: scale(-1, 1); }
+	100%	{ visibility: visible; opacity: 1; left: -300px; transform: scale(1, 1); }
 }
 
 .scene-four-header {
