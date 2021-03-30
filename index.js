@@ -45,7 +45,7 @@ document.onreadystatechange = function () {
 			sceneFour.classList.remove(`scene-four-text-animation`);
 			sceneFourImg.classList.remove(`scene-four-bgimg-animation`);
 		}
-		if (window.pageYOffset  >= 2851 && window.pageYOffset  <= 3600) {
+		if (window.pageYOffset  >= 2500) {
 			sceneFiveHeader.classList.add(`scene-five-header-animation`);
 			sceneFiveDesc.classList.add(`scene-five-desc-animation`);
 			sceneFiveImg.classList.add(`scene-five-bgimg-animation`);
